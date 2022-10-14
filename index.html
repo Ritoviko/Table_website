@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #nav{
+        text-align: center;
+       }
+       #nav a{
+        text-decoration: none;
+        color: darkblue;
+        font-weight: bold;
+       }
+       #nav a:hover{
+        cursor: pointer;
+        color: red;
+       }
+       #mern{
+        height: 100%;
+        width: 355px;
+       }
+       #mern-d{
+        text-align: center;
+        font-size: large;
+        word-spacing: 3px;
+       }
+       .mern-d{
+        color: red;
+       }
+       #courses{
+        height: 100%;
+        width: 100%;
+       }
+       #courses-j{
+        height: 271.56px;
+        width: 100%;
+       }
+       #courses-f{
+        height: 271.56px;
+        width: 100%;
+       }
+       #courses-s{
+        height: 271.56px;
+        width: 100%;
+       }
+       #courses-a{
+        height: 271.56px;
+        width: 100%;
+       }
+       #courses-p{
+        height: 271.56px;
+        width: 100%;
+       }
+       #courses-d{
+        height: 271.56px;
+        width: 100%;
+       }
+       #courses-title{
+        background-color: rgba(255, 255, 255, 0.552);
+        color: #000;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+       }
+       #courses-title a{
+        color: #000;
+        text-decoration: none;
+       }
+       #courses-title a:hover{
+        color: darkred;
+       }
+       #c-title{
+        text-align: center;
+        color: white;
+       }
+       #c-title h1{
+        word-spacing: 2px;
+       }
+    </style>
+</head>
+
+<body bgcolor="#34495e" >
+    <table width="100%" border="1px" bgcolor="#fff" color="#000">
+        <tr>
+            <td id="nav"><a href="#home">Home</a></td>
+            <td id="nav"><a  href="#about">About</a></td>
+            <td id="nav"><a  href="#services">Services</a></td>
+            <td id="nav"><a  href="#contact">Contact us</a></td>
+        </tr>
+    </table>
+    <br>
+    <table style="background-image: url('images/Screenshot\ \(121\).png');"width="100%" border="1px" align="center" bgcolor="#82ccdd" height="500px" id="home">
+        <tr>
+
+        </tr>
+    </table>
+    <br>
+    <table width="100%" border="1px" align="center" bgcolor="#34ace0" height="300px" id="about">
+        <tr>
+            <td><img id="mern" src="images/m.png" alt=""></td>
+            <td><img id="mern" src="images/e.png" alt=""></td>
+            <td><img id="mern" src="images/r.webp" alt=""></td>
+            <td><img id="mern" src="images/n.jpg" alt=""></td>
+        </tr>
+       <table width="100%" align="center" bgcolor="#f9ca24">
+        <tr>
+        <td id="mern-d">
+            <span class="mern-d"> 30% DISCOUNT</span> ON MERN STACK TRAINING (MOST DEMANDING TRAINING)
+        </td>
+         </tr>
+        </table>
+    </table>
+    <br>
+
+    <table width="100%" border="1px" id="services">
+
+        <tr>
+            <td><img id="courses-j" src="/images/java.png" alt=""></td>
+            <td><img id="courses-a" src="/images/aws.jpg" alt=""></td>
+            <td><img id="courses-f" src="/images/fullstack.png" alt=""></td>
+        </tr>
+        <tr>
+            <td id="courses-title"><a href="#"> Training</a></td>
+            <td id="courses-title"><a href="#">Amazon Web Services</a></td>
+            <td id="courses-title"><a href="#">Full Stack Developer</a></td>
+        </tr>
+        <tr>
+            <td><img id="courses-p" src="/images/python.jpg" alt=""></td>
+            <td><img id="courses-s" src="/images/salesforce.png" alt=""></td>
+            <td><img id="courses-d" src="/images/digitalmarketing.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td id="courses-title"><a href="#">Python Training</a></td>
+            <td id="courses-title"><a href="#">Salesforce Training</a></td>
+            <td id="courses-title"><a href="#">Digital Marketing</a></td>
+        </tr>
+
+    </table>
+
+
+    <br>
+    <table width="50%" bgcolor="#9b59b6" border="1px" align="center" id="contact">
+        <form action="">
+            <tr >
+                <td id='c-title' colspan="2">
+                    <h1>Contact One Of Our Expert</h1>
+                </td>
+            </tr>
+            <tr>
+                <td><label for=""><span>Name: </span></td>
+                <td>
+                    <input type="text" value="" placeholder="Name*" class="input_box" required class=""></label>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>
+                    <label for=""><span>Email: </span></label>
+                </td>
+                <td>
+                    <input type="email" class="input_box" placeholder="Email*" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for=""><Span>Contact: </Span></label>
+                </td>
+                <td><input type="tel" class="input_box" placeholder="XXXXXXXXXX" required></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <legend> Gender</legend>
+                        <input type="radio" placeholder="" name="Gender" value="M" required>Male
+                        <input type="radio" name="Gender" id="" value="F" required>Female 
+                        </legend>
+                    </fieldset> <br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <legend>Language</legend>
+                        <input type="checkbox" name="Language" id=""><span> Mernstack Training</span><br>
+                        <input type="checkbox" name="Language" id=""><span>Java Training</span><br>
+                        <input type="checkbox" name="Language" id=""><span>AWS (Amazon Web service)</span><br>
+                        <input type="checkbox" name="Language" id=""><span>Fullstack Training</span><br>
+                        <input type="checkbox" name="Language" id=""><span>Python Training</span><br>
+                        <input type="checkbox" name="Language" id=""><span>Salesforce Training</span><br>
+                        <input type="checkbox" name="Language" id=""><span>Digital Marketing</span><br> <br>
+                    </fieldset><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for=""><span>City: </span></label>
+                </td>
+                
+                <td>
+                    <!-- Delhi-->
+                    <select id="city" name="city">
+                        <option value="">Select City</option>
+                        <option value="Alipur">Alipur</option>
+                        <option value="Bawana">Bawana</option>
+                        <option value="Central Delhi">Central Delhi</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Deoli">East North Delhi</option>
+                        <option value="East Delhi">East Delhi</option>
+                        <option value="Karol Bagh">Karol Bagh</option>
+                        <option value="Najafgarh">Najafgarh</option>
+                        <option value="Nangloi Jat">Nangloi Jat</option>
+                        <option value="Narela">Narela</option>
+                        <option value="New Delhi">New Delhi</option>
+                        <option value="North Delhi">North Delhi</option>
+                        <option value="North East Delhi">North East Delhi</option>
+                        <option value="North West Delhi">North West Delhi</option>
+                        <option value="Pitampura">Pitampura</option>
+                        <option value="Rohini">Rohini</option>
+                        <option value="South Delhi">South Delhi</option>
+                        <option value="South West Delhi">South West Delhi</option>
+                        <option value="West Delhi">West Delhi</option>
+                    </select><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button>Submit</button>
+                </td>
+            </tr>
+
+
+        </form>
+    </table>
+</body>
+
+</html>
